@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Container>
       <Header />
-      <img src="./public/favicon.png" height="256px" />
+      <img src="./favicon.png" height="256px" />
       <ButtonContainer>
         <MainButton>Documentation</MainButton>
         <MainButton>Playground</MainButton>

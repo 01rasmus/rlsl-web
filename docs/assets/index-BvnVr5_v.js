@@ -29,7 +29,7 @@ Error generating stack: `+e.message+`
     background: #000000;
     color: #ffffff;
     border-bottom: 1px solid #606060;
-`;function er(){let e=(0,Xe.c)(4),t,n;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,Xn.jsx)(Zn,{}),n=(0,Xn.jsx)(`img`,{src:`./public/favicon.png`,height:`256px`}),e[0]=t,e[1]=n):(t=e[0],n=e[1]);let r;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,Xn.jsxs)(rr,{children:[(0,Xn.jsx)(ir,{children:`Documentation`}),(0,Xn.jsx)(ir,{children:`Playground`})]}),e[2]=r):r=e[2];let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,Xn.jsxs)(nr,{children:[t,n,r,(0,Xn.jsx)(tr,{children:(0,Xn.jsx)(`p`,{children:`A custom shader language that simplifies shader creation for multi graphics api backend renderers`})})]}),e[3]=i):i=e[3],i}var tr=qn.div`
+`;function er(){let e=(0,Xe.c)(4),t,n;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,Xn.jsx)(Zn,{}),n=(0,Xn.jsx)(`img`,{src:`./favicon.png`,height:`256px`}),e[0]=t,e[1]=n):(t=e[0],n=e[1]);let r;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,Xn.jsxs)(rr,{children:[(0,Xn.jsx)(ir,{children:`Documentation`}),(0,Xn.jsx)(ir,{children:`Playground`})]}),e[2]=r):r=e[2];let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,Xn.jsxs)(nr,{children:[t,n,r,(0,Xn.jsx)(tr,{children:(0,Xn.jsx)(`p`,{children:`A custom shader language that simplifies shader creation for multi graphics api backend renderers`})})]}),e[3]=i):i=e[3],i}var tr=qn.div`
   width: 25rem;
   text-align: center;
 `,nr=qn.div`
