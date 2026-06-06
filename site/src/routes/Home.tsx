@@ -1,15 +1,18 @@
 import styled from "styled-components";
-import Header from "./Header"
+import { PLAYGROUND_ROUTE } from "./Playground";
+import { DOCUMENTATION_ROUTE } from "./Documentation";
+import { RouterLink } from "../components/RouterLink";
 
-export default function Main() {
+export const HOME_ROUTE = "/";
+
+export default function Home() {
 
   return (
     <Container>
-      <Header />
       <img src="./favicon.png" height="256px" />
       <ButtonContainer>
-        <MainButton>Documentation</MainButton>
-        <MainButton>Playground</MainButton>
+        <RouterLink to={DOCUMENTATION_ROUTE}><MainButton>Documentation</MainButton></RouterLink>
+        <RouterLink to={PLAYGROUND_ROUTE}><MainButton>Playground</MainButton></RouterLink>
       </ButtonContainer>
       <TextContainer>
         <p>A custom shader language that simplifies shader creation for multi graphics api backend renderers</p>
@@ -43,7 +46,7 @@ const MainButton = styled.div`
   user-select: none;
   color: white;
   font-size: 1.5rem;
-  border-radius: 16px;
+  border-radius: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +56,6 @@ const MainButton = styled.div`
   background: #000000;
   transition: 0.2s;
   cursor: none;
-  space: 10px;
 
   &:hover {
      border: 0.15rem solid #89009b;

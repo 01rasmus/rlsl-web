@@ -1,12 +1,15 @@
 import styled from "styled-components";
 import githubLogo from "../assets/GitHub_Invertocat_White.svg";
+import { HOME_ROUTE } from "../routes/Home";
+import { RouterLink } from "./RouterLink";
+
+export const HEADER_HEIGHT = "3rem";
 
 export default function Header() {
-
   return (
     <>
       <Container>
-        rlsl
+        <RouterLink to={HOME_ROUTE}>RLSL</RouterLink>
         <a href="https://github.com/01rasmus/rlsl" target="_blank" rel="noopener noreferrer"><Image src={githubLogo} /></a>
       </Container>
     </>
@@ -24,9 +27,8 @@ const Container = styled.div`
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
     font-size: 2rem;
-    height: 3rem;
+    height: ${HEADER_HEIGHT};
     display: flex;
     align-items: center;
     padding-left: 0.25rem;
