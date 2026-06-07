@@ -8,7 +8,7 @@
     "wasm-build": "cmake --build ../wasm/build && mkdir -p public/wasm && cp ../wasm/build/rlsl_web.js public/wasm/ && cp ../wasm/build/rlsl_web.wasm public/wasm/",
     "wasm": "npm run wasm-configure && npm run wasm-build",
     "dev": "npm run wasm && vite",
-    "build": "npm run wasm && tsc -b && vite build",
+    "build": "npm run wasm && tsc -b && vite build && cp dist/index.html dist/404.html && rm -rf ../docs/ && cp -r dist/ ../docs && echo 'rlsl.dev' > ../docs/CNAME",
     "lint": "eslint .",
     "preview": "vite preview"
   },
